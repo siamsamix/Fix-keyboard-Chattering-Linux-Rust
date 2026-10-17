@@ -1,6 +1,6 @@
 # __Keyboard Chattering Fix for Linux__
 
-_This is a rewrite of (https://github.com/finkrer/KeyboardChatteringFix-Linux) in Rust using Claude._
+_This is a rewrite of https://github.com/finkrer/KeyboardChatteringFix-Linux in Rust written using Claude._
 
 __A tool for filtering mechanical keyboard chattering on Linux__
 
