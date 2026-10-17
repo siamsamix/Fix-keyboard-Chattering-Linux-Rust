@@ -1,0 +1,12 @@
+[Unit]
+Description=Keyboard Chattering Fix service
+
+[Service]
+# Change the -k argument to your keyboard's entry in /dev/input/by-id and -t to your threshold (ms)
+ExecStart=/usr/bin/keyboard-chattering-fix -k usb-SEMICO_USB_Gaming_Keyboard-event-kbd -t 50
+
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
